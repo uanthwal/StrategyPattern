@@ -1,0 +1,9 @@
+package StrategyPatterns.With;
+
+import StrategyPatterns.With.Strategy.NormalDriveStrategy;
+
+public class PassengerVehicle extends Vehicle {
+    PassengerVehicle() {
+        super(new NormalDriveStrategy());
+    }
+}
